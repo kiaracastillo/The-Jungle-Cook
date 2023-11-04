@@ -79,24 +79,7 @@
    cursor: pointer;
  }
  
- @media screen and (max-width: 768px) {
-   footer {
-     margin-top: 10px;
-     width: 90%;
-     margin-bottom: 10px;
-   }
-   footer .copy span {
-     width: auto;
-     font-size: 10px;
-   }
-   footer .links {
-     width: auto;
-   }
-   footer .links a {
-     margin-left: 10px;
-     font-size: 10px;
-   }
- }
+ 
 
   /* Nav bar*/
   .nav-holder {
@@ -224,14 +207,7 @@
  .nav-holder .mobile-menu li {
    margin-bottom: 10px;
  }
- @media all and (max-width: 768px) {
-   .nav-holder nav {
-     display: none;
-   }
-   .nav-holder .hamburger-icon {
-     display: block;
-   }
- }
+
 
 
   /* login*/
@@ -330,3 +306,38 @@ input ::placeholder{
  height: 100%;
  background-color:#ffd972;
 }
+
+
+@media screen and (max-width: 768px) {
+  footer {
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  footer .copy span {
+    width: auto;
+    font-size: 10px;
+  }
+  footer .links {
+    width: auto;
+  }
+  footer .links a {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+/* nav */
+  .nav-holder nav {
+    display: none;
+  }
+  .nav-holder .hamburger-icon {
+    display: block;
+  }
+
+  .wrapper .createSignInWrapper{
+
+    flex-direction: column;
+    
+    margin-bottom: 700px;
+  }
+}
+
