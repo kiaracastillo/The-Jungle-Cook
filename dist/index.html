@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Jungle Cook.</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+    <div class="nav-holder">
+
+        <div class="logo">
+            <a href="#"><img src="/dist/img/logo.svg" ></a> 
+        </div>
+  
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#browse">Browse</a> </li>
+                <li><a href="#create">Create Recipe</a> </li>
+                <li class="login"><a href="#login">Login</a> </li>
+            </ul>
+        </nav>
+  
+        <div id="hamburger" class="hamburger-icon" >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#browse">Browse</a> </li>
+                <li><a href="#create">Create Recipe</a> </li>
+                <li class="login"><a href="#login">Login</a> </li>
+            </ul>
+        </div>
+  
+    </div>
+    
+<div class="wrapper">
+    <div class="createSignInWrapper">
+    <div class="signIn">
+        <h2>Login Here!</h2>
+     <!--   <label for="email">Email Address</label>-->
+        <input type="email" id="email" placeholder="Email Address" />
+     <!--   <label for="pw">Password</label>-->
+        <input type="password" id="pw" placeholder="Password" />
+        <input type="submit" value="LOGIN" class="boton" id="signIn">
+
+    </div>
+    <div class="createAccount">
+      <p>  don’t have an account?</p>
+      <h2>Sign Up!</h2>
+       <!-- <label for="fName">First Name</label>-->
+        <input type="text" id="fNameC" placeholder="First Name" />
+        <!--<label for="lName">Last Name</label>-->
+        <input type="text" id="lNameC" placeholder="Last Name" />
+       <!-- <label for="email">Email Address</label>-->
+        <input type="email" id="emailC" placeholder="Email Address" />
+      <!--  <label for="pw">Password</label>-->
+        <input type="password" id="pwC" placeholder="Password" />
+        <input type="submit" value="SIGN UP"  class="boton" id="createAcctBtn" /> 
+    </div>
+</div>
+
+</div>
+
+
+<footer>
+    <div class="copy">
+        <span>Copyright &copy; 2019 The Jungle Cook</span>
+    </div>
+    <div class="links">
+        <a href="#login">Login</a>
+        <a href="#">Recipes by Category</a>
+        <a href="#">Privacy and Copyright</a>
+        <a href="#">Create Recipe</a>
+        <a href="#">Your Recipes</a>
+
+    </div>
+    <div class="social">
+        <img src="/dist/img/facebook.svg" alt="Facebook">
+        <img src="/dist/img/instagram.svg" alt="Instagram">
+    </div>
+
+</footer>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="app/app.js"></script>
+</body>
+</html>
