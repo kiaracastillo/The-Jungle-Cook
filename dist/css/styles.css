@@ -328,9 +328,18 @@ input ::placeholder{
 /* nav */
   .nav-holder nav {
     display: none;
+    padding: 0;
   }
   .nav-holder .hamburger-icon {
     display: block;
+    margin-right: -60px;
+  }
+  .nav-holder img{
+   margin-left: -90px;
+    width: 174px;
+    height: 47px;
+    
+
   }
 
   .wrapper .createSignInWrapper{
@@ -338,6 +347,14 @@ input ::placeholder{
     flex-direction: column;
     
     margin-bottom: 700px;
+  }
+  .wrapper .createSignInWrapper .signIn{
+    margin-top: 60px;
+  }
+
+  .wrapper .createAccount{
+    margin-left: 50px;
+    width: 100%;
   }
 }
 
